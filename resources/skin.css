@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+
+
+QWidget#MainWindow {
+	background-image: url(resources/mainbackground.png);
+}
+
+QWidget#StatusBar{
+	background-image: url(resources/statusBar.png);
+}
+
+QPushButton {
+	background-color: transparent;
+	border-image: url(resources/standardbutton.png) 0 0 0 0 stretch stretch;
+}
+
+QPushButton:hover {
+	border-image: url(resources/standardbuttonpushed.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel {
+	font-family: "System Bold";
+}
+
+QLabel#ModeLabel {
+	font-size: 30pt;
+	color: #c7c7c7;
+}
+
+QLabel#InfoLabel {
+	font-size: 40pt;
+	color: #dcdcdc;
+}
+
+QLabel#TimeLabel {
+	font-size: 20pt;
+	color: #656565;
+}
+
+
