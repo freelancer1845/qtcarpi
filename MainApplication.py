@@ -3,7 +3,7 @@ Created on 10.06.2017
 
 @author: Jascha Riedel
 '''
-from PyQt5.Qt import QApplication
+from PyQt5.Qt import QApplication, QFontDatabase
 from Gui.MainWindow import MainWindow
 from Backend.core.MainController import MainController
 from PyQt5.QtCore import qCritical
@@ -17,6 +17,7 @@ class MainApplication(QApplication):
 
 
     def loadSkin(self):
+        
         try:
             with open('resources/skin.css', 'r') as handle:
                 skinCss = handle.read()

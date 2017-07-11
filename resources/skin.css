@@ -2,7 +2,7 @@
 
 
 QWidget#MainWindow {
-	background-image: url(resources/mainbackground.png);
+	background-image: url(resources/mainbackground2.png);
 }
 
 QWidget#StatusBar{
@@ -11,15 +11,18 @@ QWidget#StatusBar{
 
 QPushButton {
 	background-color: transparent;
-	border-image: url(resources/standardbutton.png) 0 0 0 0 stretch stretch;
+	border-image: url(resources/mainButton.png) 0 0 0 0 stretch stretch;
+	font-family: "Lusitana Regular";
+	font-size: 24pt;
+	color: #f3f3f3;
 }
 
 QPushButton:hover {
-	border-image: url(resources/standardbuttonpushed.png) 0 0 0 0 stretch stretch;
+	border-image: url(resources/mainButtonPressed.png) 0 0 0 0 stretch stretch;
 }
 
 QLabel {
-	font-family: "System Bold";
+	font-family: "Lusitana Regular";
 }
 
 QLabel#ModeLabel {
